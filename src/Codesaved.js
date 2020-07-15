@@ -24,6 +24,8 @@ import ForwardingrefParent from "./components/ForwardingrefParent";
 import PortalDemo from "./components/PortalDemo";
 import Hero from "./components/Hero";
 import ErrorBoundary from "./components/ErrorBoundary";
+import ClickCounter from "./ClickCounter";
+import HoverCounter from "./HoverCounter";
 {
   /* <Greet name="clark" heroName="superman" />
           <Welcome name="clark" heroName="superman" /> */
@@ -90,4 +92,26 @@ import ErrorBoundary from "./components/ErrorBoundary";
           <ErrorBoundary>
             <Hero heroname="Joker" />
           </ErrorBoundary> */
+}
+{
+  /* <ClickCounter name="Ishan" />
+        <HoverCounter /> */
+}
+//
+{
+  /* <ClickCountertwo />
+        <HoverCounterTwo />
+        <User render={(isLoggedIn) => (isLoggedIn ? "Ishan" : "Guest")} /> */
+}
+{
+  /* <Counter
+          render={(count, incrementCount) => (
+            <ClickCountertwo count={count} incrementCount={incrementCount} />
+          )}
+        />
+        <Counter
+          render={(count, incrementCount) => (
+            <HoverCounterTwo count={count} incrementCount={incrementCount} />
+          )}
+        /> */
 }

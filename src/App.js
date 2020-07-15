@@ -1,17 +1,14 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
-
-import ClickCounter from "./ClickCounter";
-import HoverCounter from "./HoverCounter";
+import ClickCountertwo from "./components/ClickCountertwo";
+import HoverCounterTwo from "./components/HoverCounterTwo";
+import User from "./User";
+import Counter from "./Counter";
 
 class App extends Component {
   render() {
-    return (
-      <div className="App">
-        <HoverCounter />
-      </div>
-    );
+    return <div className="App"></div>;
   }
 }
 
